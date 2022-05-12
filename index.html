@@ -12,8 +12,8 @@
     <header class="header">
         <img src="images/project__logo.svg" alt="логотип проекта" class="header__logo">
         <div class="header__links">
-            <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-            <a href="#" class="header__lang-link">En</a>
+            <a href="#" class="header__lang-link header__lang-link_active link-animation">Ru</a>
+            <a href="#" class="header__lang-link link-animation">En</a>
         </div>
     </header>
     <main class="content">
@@ -81,8 +81,7 @@
                     </a>
                 </div>
                 <img src="images/places__image_kosa.jpg" alt="кушская коса" class="place__image">
-                <ul class="place__paragraphs">
-                    <li>
+                <div class="place__paragraphs">
                         <p class="place__paragraph">
                             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
                             Куршского
@@ -91,8 +90,6 @@
                             зона
                             на краю российского анклава.
                         </p>
-                    </li>
-                    <li>
                         <p class="place__paragraph">
                             На этом Калининградская область не заканчивается. Для путешественника и исследователя там же
                             по
@@ -102,8 +99,7 @@
                             запах
                             стального, прохладного моря.
                         </p>
-                    </li>
-                </ul>
+                </div>
             </article>
             <article class="places__place place">
                 <h2 class="place__title">
@@ -120,16 +116,13 @@
                 </div>
                 <img src="images/places__image_kolsky.jpg" alt="Кольский" class="place__image">
 
-                <ul class="place__paragraphs">
-                    <li>
+                <div class="place__paragraphs">
                         <p class="place__paragraph">
                             Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
                             тайга, а
                             на
                             север — Ледовитый океан, прикидывающийся Баренцевым морем.
                         </p>
-                    </li>
-                    <li>
                         <p class="place__paragraph">
                             Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке.
                             Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
@@ -139,8 +132,7 @@
                             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в
                             Мурманск.
                         </p>
-                    </li>
-                </ul>
+                </div>
             </article>
             <article class="places__place place">
                 <h2 class="place__title">
@@ -156,8 +148,7 @@
                     </a>
                 </div>
                 <img src="images/places__image_altay.jpg" alt="Алтай" class="place__image">
-                <ul class="place__paragraphs">
-                    <li>
+                <div class="place__paragraphs">
                         <p class="place__paragraph">
                             Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль
                             хребта,
@@ -166,8 +157,6 @@
                             окна,
                             сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
                         </p>
-                    </li>
-                    <li>
                         <p class="place__paragraph">
                             Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё
                             разнообразие
@@ -175,8 +164,7 @@
                             пасутся
                             косули. И знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
-                    </li>
-                </ul>
+                </div>
             </article>
             <article class="places__place place">
                 <h2 class="place__title">
@@ -191,15 +179,12 @@
                     </a>
                 </div>
                 <img src="images/places__image_baikal.jpg" alt="зимний Байкал" class="place__image">
-                <ul class="place__paragraphs">
-                    <li>
+                <div class="place__paragraphs">
                         <p class="place__paragraph">
                             Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой
                             источник
                             пресной воды и одно из красивейших мест в России.
                         </p>
-                    </li>
-                    <li>
                         <p class="place__paragraph">
                             Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это
                             такой
@@ -211,8 +196,7 @@
                             —
                             197.011 км/ч.
                         </p>
-                    </li>
-                </ul>
+                </div>
             </article>
             <article class="places__place place">
                 <h2 class="place__title">
@@ -227,8 +211,7 @@
                     </a>
                 </div>
                 <img src="images/places__image_karelia.jpg" alt="Карелия" class="place__image">
-                <ul class="place__paragraphs">
-                    <li>
+                <div class="place__paragraphs">
                         <p class="place__paragraph">
                             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не
                             растёт
@@ -242,16 +225,17 @@
                             земли
                             помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                         </p>
-                    </li>
-                </ul>
+                </div>
             </article>
         </section>
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover" target="_blank">
-            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-            <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-            </p>
-        </a>
+        <section>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover" target="_blank">
+                <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+                <p class="cover__subtitle">
+                    По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+                </p>
+            </a>
+        </section>
     </main>
     <footer class="footer">
         <nav class="footer__nav">
